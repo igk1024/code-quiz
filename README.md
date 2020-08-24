@@ -1,36 +1,25 @@
-# JavaScript Quiz application
+# Code Quiz
 
-This application is a timer-based quiz application that stores high scores client-side.
+Build a timed coding quiz with multiple-choice questions. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface
 
 ## User Story
 
-As a coding bootcamp student
-I want to take a timed quiz on JavaScript fundamentals that stores high scores
-so that I can gauge my progress compared to my peers
 
-```
-## Quiz flow
+## Acceptance Criteria
 
- * The user arrives at the landing page and is presented with a call-to-action to "Start Quiz." Also note the navigation option to "View Highscores" and the "Time" value set at 0.
+GIVEN I am taking a code quiz
+WHEN I click the start button
+THEN a timer starts and I am presented with a question
+WHEN I answer a question
+THEN I am presented with another question
+WHEN I answer a question incorrectly
+THEN time is subtracted from the clock
+WHEN all questions are answered or the timer reaches 0
+THEN the game is over
+WHEN the game is over
+THEN I can save my initials and score
 
- * Clicking the "Start Quiz" button presents the user with a series of questions. The timer is initialized with a value and immediately begins countdown.
 
- * Score is calculated by time remaining. Answering quickly and correctly results in a higher score. Answering incorrectly results in a time penalty (for example, 15 seconds are subtracted from time remaining).
+## Deployed URL
 
- * When time runs out and/or all questions are answered, the user is presented with their final score and asked to enter their initials. Their final score and initials are then stored in `localStorage`.
-
-
-## Quiz Features:
-
-* The first view of the application displays a button that starts the quiz.
-
-* Clicking the start button displays a series of questions.
-
-* Once the quiz begins, a timer starts.
-
-* If a question is answered incorrectly, additional time is subtracted from the timer.
-
-* The timer stops when all questions have been answered or the timer reaches 0.
-
-* After the game ends, the user can save their initials and score to a highscores view using local storage.
-```
+## GitHub Repository
